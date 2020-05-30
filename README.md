@@ -1,6 +1,12 @@
 # webpack-dev-mocker
 一个非常轻量且简单易用的基于webpack-dev-server的mock工具，它能让你快速的切换mock环境和线上环境。
 
+## 特点
+1. webpack-dev-server 不用手动创建mock文件，只要开启mock状态，它就能自动给你创建mock文件
+2. webpack-dev-server 能直接将线上的数据拉到为本地作为mock数据，如果线上数据不存在，也会给你创建出一个mock文件
+3. 随时随地切换线上数据和本地mock数据
+5. 能在mock文件中无缝对接如mockjs等其它mock工具
+6. 不用再 ```npm run mock``` 了,
 ## install
 ```sh
 npm i webpack-dev-mocker --save-dev
@@ -50,7 +56,7 @@ module.exports = {
 | dataPath  |the target directory to save mock data; 用于保存mock数据的目标文件夹 |
 
 ## webpack-dev-mocker 工作流程
-![image](https://raw.githubusercontent.com/weijialiu06/webpack-dev-mocker/master/images/1.png)
+<img src="https://raw.githubusercontent.com/weijialiu06/webpack-dev-mocker/master/images/1.png" width="500" />
 
 ## demo
 
