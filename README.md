@@ -50,7 +50,7 @@ module.exports = {
 | dataPath  |the target directory to save mock data; 用于保存mock数据的目标文件夹 |
 
 ## webpack-dev-mocker 工作流程
-![image](http://github.com/weijialiu06/webpack-dev-mocker/raw/master/images/1.png)
+![image](https://raw.githubusercontent.com/weijialiu06/webpack-dev-mocker/master/images/1.png)
 
 ## demo
 
