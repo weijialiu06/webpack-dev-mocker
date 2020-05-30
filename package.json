@@ -1,0 +1,44 @@
+{
+  "name": "webpack-dev-mocker",
+  "version": "1.0.0",
+  "description": "一个非常简单易用的基于webpack-dev-server的mock工具",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weijialiu06/webpack-dev-mocker.git"
+  },
+  "keywords": [
+    "webpack-dev-server mocker",
+    "webpack mock",
+    "webpack-dev-server mock",
+    "mock",
+    "webpack mocker"
+  ],
+  "author": "wei.jialiu06",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weijialiu06/webpack-dev-mocker/issues"
+  },
+  "homepage": "https://github.com/weijialiu06/webpack-dev-mocker#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.0.0",
+    "globby": "^11.0.0",
+    "mkdirp": "^1.0.4",
+    "querystring": "^0.2.0",
+    "walk": "^2.3.14"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
