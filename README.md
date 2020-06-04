@@ -58,6 +58,9 @@ module.exports = {
 ## webpack-dev-mocker 工作流程
 <img src="https://raw.githubusercontent.com/weijialiu06/webpack-dev-mocker/master/images/1.png" width="500" />
 
+## todo
+- [x] 接入[ts-interface-faker](https://github.com/weijialiu06/ts-interface-faker.git)
+
 ## demo
 
 [webpack-dev-mocker](https://github.com/weijialiu06/webpack-dev-mocker-demo.git)
